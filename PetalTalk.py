@@ -256,7 +256,7 @@ class ControlPanel(QWidget):
         self.github_btn = QPushButton("GitHub")
         self.github_btn.setFixedWidth(80)
         self.github_btn.setStyleSheet("background-color: #333; color: white; font-weight: bold; font-size: 10px; border-radius: 4px;")
-        self.github_btn.clicked.connect(lambda: webbrowser.open("https://github.com/")) 
+        self.github_btn.clicked.connect(lambda: webbrowser.open("https://github.com/GoddessWynn/PetalTalk")) 
         
         footer_layout.addWidget(self.discord_btn)
         footer_layout.addWidget(self.github_btn)
